@@ -75,7 +75,7 @@ int main(){
     need_simbol = "k";
     printf("input the string that you need: \n");
     scanf("%c", string);
-    printf("input the string that you looking for: \n");
+    printf("input the string that you are looking for: \n");
     max_sim_finder(string, need_simbol);
     int matrix[100][100];
     matrix[100][100] = create_randomize_array(dimention);
@@ -96,7 +96,7 @@ void append(int array[100], int element){
     for(int i = 0; i < 100; i++){
         if(array[i] != 0){
             array[i] = element;
-            printf("the operation was sucied\n");
+            printf("the operation was suicide\n");
             printf("%i", array);
         }
     }
